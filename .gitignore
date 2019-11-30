@@ -104,4 +104,4 @@ dist
 .tern-port
 
 # Jest test report
-jest_html_reporters.html
+.jest-reps

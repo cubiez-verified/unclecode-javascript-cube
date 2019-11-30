@@ -18,6 +18,8 @@
     "reporters": [
       "default",
       ["jest-html-reporters", {
+        "publicPath": "./.jest-reps",
+        "filename": "report.html",
         "expand": true
       }]
     ]    
