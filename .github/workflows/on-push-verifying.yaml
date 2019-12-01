@@ -1,5 +1,8 @@
 name: Verifying workflow
-on: [push]   
+on: [push]
+  push:
+    paths:    
+      - 'task*.js'         
 jobs:
   test:
     runs-on: ubuntu-latest
