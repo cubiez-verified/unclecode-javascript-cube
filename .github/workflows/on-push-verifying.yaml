@@ -1,5 +1,5 @@
 name: Verifying workflow
-on: [push]
+on:
   push:
     paths:    
       - 'task*.js'         
